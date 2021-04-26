@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 5, 2018, 8:55:40 PM
+    Author     : matina
+*/
+
+body{
+    background-color: rgba(236, 185, 214, 0.44);
+    padding: 30px;
+}
+form{
+    margin: 0 auto;
+    max-width: 360px;
+    height: 250px;
+    border-radius: 3px;
+}
+input{
+    margin: 20px;
+    padding: 5px;
+}
+
+
+tr:nth-child(odd){
+    background-color:thistle;
+    color: white;
+
+}
+
+tr:nth-child(even){
+    background-color:lightpink;
+    font-family: fantasy;
+    font-weight: bolder;
+}
+
+td{
+    padding: 0px 15px;
+}
+
+
+#pass{
+
+}
+
+.aliceblue{
+    background-color : lightpink;
+    text-align: center;
+}
+#header{
+    font-family: monospace;
+    font-size: 30px;
+    color: lightpink;
+    padding: 0 10px 0 10px;
+    letter-spacing: 2px;
+}
+fieldset{
+    display: inline;
+}
+table {
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    border-top-color: lightpink;
+    border-right-color: lightpink;
+    border-bottom-color: lightpink;
+    border-left-color: lightpink;
+}
+fieldset {
+    border-top-color: lightpink;
+    border-right-color: lightpink;
+    border-bottom-color: lightpink;
+    border-left-color: lightpink;
+    }    
